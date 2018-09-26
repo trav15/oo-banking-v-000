@@ -29,6 +29,7 @@ class Transfer
       receiver.balance -= amount
       self.status = "reversed"
     else
+      "Transaction cannot be reversed."
     end
   end
   
