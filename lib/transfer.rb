@@ -7,4 +7,9 @@ class Transfer
     @amount = amount
     @status = status
   end
+  
+  def valid?
+    self.sender.valid? && self.receiver.valid?
+  end
+  
 end
