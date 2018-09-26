@@ -13,8 +13,8 @@ class Transfer
   end
   
   def execute_transaction
-    sender.deposit(-(amount)
-    receiver.deposit(amount)
+    @sender.deposit(-(amount)
+    @receiver.deposit(amount)
     status = "complete"
   end
   
